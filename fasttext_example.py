@@ -3,7 +3,7 @@ import os
 
 PATH_TO_MODEL = ''
 
-model = fasttext.load_model(os.path.join(PATH_TO_MODEL,'fasttext_raw.bin'))
+model = fasttext.load_model(os.path.join(PATH_TO_MODEL,'fasttext_twitter_raw.bin'))
 
 word_inv = 'running'
 word_oov = 'runnnnnnnnnnnning'
